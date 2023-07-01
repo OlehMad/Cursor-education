@@ -38,8 +38,7 @@
 
 .first-banner__link {
   display: inline-block;
-  position: relative;
-  bottom: 10px;
+  vertical-align: 50%;
   padding: 8px 10px;
   width: 106px;
   color: #4ad295;
@@ -52,8 +51,7 @@
 
 .first-banner__btn {
   display: inline-block;
-  position: relative;
-  bottom: 10px;
+  vertical-align: 50%;
   width: 130px;
   margin-left: 5px;
   padding: 8px 10px;
@@ -104,7 +102,7 @@
 }
 
 .third-banner {
-  position: relative;
+  /* position: relative; */
   width: 560px;
   height: 72px;
   margin-bottom: 24px;
@@ -116,9 +114,9 @@
 }
 
 .third-banner__icon {
-  display: inline-block;
   position: relative;
-  bottom: 13px;
+  display: inline-block;
+  vertical-align: 70%;
   width: 36px;
   height: 36px;
   margin-right: 6px;
@@ -147,8 +145,7 @@
 
 .third-banner__btn-decline {
   display: inline-block;
-  position: relative;
-  bottom: 10px;
+  vertical-align: 50%;
   margin: 0 6px;
   padding: 4px 10px;
   border-radius: 8px;
@@ -162,8 +159,7 @@
 
 .third-banner__btn-allow {
   display: inline-block;
-  position: relative;
-  bottom: 10px;
+  vertical-align: 50%;
   padding: 4px 10px;
   border-radius: 8px;
   color: #fff;
@@ -199,8 +195,7 @@
 
 .fourth-banner__btn {
   display: inline-block;
-  position: relative;
-  bottom: 9px;
+  vertical-align: 50%;
   margin-left: 6px;
   padding: 4px 10px;
   border-radius: 8px;
@@ -258,8 +253,7 @@
 
 .sixth-banner {
   display: inline-block;
-  position: relative;
-  bottom: 26px;
+  vertical-align: top;
   width: 360px;
   padding: 16px;
   border-radius: 16px;
@@ -350,8 +344,7 @@
 
 .eighth-banner {
   display: inline-block;
-  position: relative;
-  bottom: 119px;
+  vertical-align: top;
   width: 320px;
   padding: 16px;
   border-radius: 4px;
