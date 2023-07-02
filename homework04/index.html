@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW #4 Блочна верстка</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <section class="header">
+          <div class="header__item">
+            <h1 class="header__title title">Stay focused on saving money</h1>
+            <p class="header__text">
+              It is important to stay focused on saving money in any way you
+              can. We help you monitor your spending habits so you can easily
+              spot and cut any unnecessary expenses. Simply join today to get
+              started!
+            </p>
+            <div class="header__store">
+              <a class="header__playstore" href="#"
+                ><img
+                  src="./image/ion-logo-google-playstore.svg"
+                  alt="logo google playstore"
+              /></a>
+              <a class="header__appstore" href="#"
+                ><img
+                  src="./image/ion-logo-apple-appstore.svg"
+                  alt="logo apple appstore"
+              /></a>
+              <a class="header__windows" href="#"
+                ><img
+                  src="./image/simple-icons_windows.svg"
+                  alt="logo windows store"
+              /></a>
+            </div>
+          </div>
+          <div class="header__slider">
+            <img src="./image/Slider.png" alt="photo slider" />
+          </div>
+        </section>
+        <section class="contact">
+          <div class="contact__main">
+            <h2 class="contact__title title">Contact</h2>
+            <p class="contact__text">
+              Questions or concerns? Just fill out the form below and our
+              support team will get back to you within 24 hours
+            </p>
+          </div>
+          <form class="contact__form" action="#">
+            <input
+              class="form__firs-name"
+              type="text"
+              name="first name"
+              placeholder="First Name"
+            />
+            <input
+              class="form__last-name"
+              type="text"
+              name="last name"
+              placeholder="Last Name"
+            />
+            <input
+              class="form__tel"
+              type="phone"
+              name="phone"
+              placeholder="Phone Number"
+            />
+            <select
+              class="form__select"
+              name="service"
+              aria-placeholder="Select Service"
+            >
+              <option value="">Select Service</option>
+            </select>
+            <button class="form__button" type="submit">Submit Now</button>
+          </form>
+        </section>
+        <div class="clearfix"></div>
+      </main>
+      <footer class="footer">
+        <div class="footer__address">
+          <h3 class="footer-item__title">Address</h3>
+          <p class="address__text">
+            Pipang Ltd, Griva Digeni, <br />
+            81-83 Jacovides Tower, 1st Floor <br />
+            1090 Picosia USA
+          </p>
+        </div>
+        <div class="footer__services">
+          <h3 class="footer-item__title">Services</h3>
+          <ul class="services__list">
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Technology</li>
+            <li>Terms & Conditions</li>
+            <li>Privecy</li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <h3 class="footer-item__title">Get in Touch</h3>
+          <a class="contacts__mail" href="mailto:info@cloudbudget.com"
+            >info@cloudbudget.com</a
+          >
+          <a class="contacts__phone" href="tel:+18447217120">+1 844-721-7120</a>
+          <div class="contacts__social">
+            <a href="#"
+              ><img src="./image/feather-facebook.svg" alt="logo Facebook"
+            /></a>
+            <a href="#"
+              ><img src="./image/feather-linkedin.svg" alt="logo LinkedIn"
+            /></a>
+            <a href="#"
+              ><img src="./image/feather-twitter.svg" alt="logo Twitter"
+            /></a>
+          </div>
+        </div>
+        <div class="footer__support">
+          <h3 class="footer-item__title">We Support</h3>
+          <img src="./image/secure-p-1 1.png" alt="logo Visa & Mastercard" />
+        </div>
+        <div class="footer__copyrigth">
+          <p class="copyrigth__text">Copyright 2018 CloudBudget</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
