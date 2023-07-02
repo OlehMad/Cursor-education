@@ -201,6 +201,9 @@ input[placeholder] {
   padding: 20px 30px;
   border: 1px solid #333;
   border-radius: 6px;
+  background-color: #fff;
+  color: rgba(19, 39, 67, 0.5);
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
