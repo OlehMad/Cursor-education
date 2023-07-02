@@ -155,8 +155,7 @@ body {
   padding: 117px 165px 78px 0;
 }
 
-input[placeholder],
-select {
+input[placeholder] {
   color: rgba(19, 39, 67, 0.5);
 }
 
