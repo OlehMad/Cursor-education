@@ -156,7 +156,7 @@ body {
 }
 
 input[placeholder],
-select[aria-placeholder] {
+select {
   color: rgba(19, 39, 67, 0.5);
 }
 
