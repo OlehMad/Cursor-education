@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW #5 Таблиці, інпути та форми, семантика тегів</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table class="empty-tbl table">
+        <thead>
+          <tr>
+            <th class="head__name">Name</th>
+            <th colspan="2">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="first-col">File.pdf</td>
+            <td class="second-col">3 mins ago</td>
+            <td class="third-col">
+              <div class="dots"></div>
+              <div class="dots"></div>
+              <div class="dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">File.pdf</td>
+            <td class="second-col">Yesterday</td>
+            <td class="third-col">
+              <div class="dots"></div>
+              <div class="dots"></div>
+              <div class="dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">File.pdf</td>
+            <td class="second-col">June 1st, 2019</td>
+            <td class="third-col">
+              <div class="dots"></div>
+              <div class="dots"></div>
+              <div class="dots"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="checkbox-tbl table">
+        <thead>
+          <tr>
+            <th class="head__name">
+              <input class="checkbox" type="checkbox" name="name" />Name
+            </th>
+            <th colspan="2">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="first-col">
+              <input class="checkbox" type="checkbox" name="file" />File.pdf
+            </td>
+            <td class="second-col">3 mins ago</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">
+              <input class="checkbox" type="checkbox" name="file" />File.pdf
+            </td>
+            <td class="second-col">Yesterday</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">
+              <input class="checkbox" type="checkbox" name="file" />File.pdf
+            </td>
+            <td class="second-col">June 1st, 2019</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="search-tbl table">
+        <thead>
+          <tr>
+            <th class="head__name">Name</th>
+            <th class="head__data" colspan="2">
+              Date <input class="search" type="text" placeholder="Search" />
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="first-col">
+              <img
+                class="file-icon"
+                src="./image/icon-file.png"
+                alt="file icon"
+                width="20px"
+              />File.pdf
+            </td>
+            <td class="second-col">3 mins ago</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">
+              <img
+                class="file-icon"
+                src="./image/icon-file.png"
+                alt="file icon"
+                width="20px"
+              />File.pdf
+            </td>
+            <td class="second-col">Yesterday</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col">
+              <img
+                class="file-icon"
+                src="./image/icon-file.png"
+                alt="file icon"
+                width="20px"
+              />File.pdf
+            </td>
+            <td class="second-col">June 1st, 2019</td>
+            <td class="third-col">
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+              <div class="dots white-dots"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

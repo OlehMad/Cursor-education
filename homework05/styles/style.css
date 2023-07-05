@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  color: #fff;
+  background-color: #2e2d2d;
+}
+
+.table {
+  width: 80%;
+  border: 2px solid #646464;
+  border-spacing: 0px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border-bottom: 2px solid #646464;
+  padding: 20px;
+}
+
+.dots {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 -1px;
+  border-radius: 50%;
+  background-color: #646464;
+}
+
+.white-dots {
+  background-color: #fff;
+}
+
+.head__name::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.first-col {
+  width: 50%;
+}
+
+.second-col {
+  width: 43%;
+  color: #646464;
+}
+
+.table tr:last-child > td {
+  border-bottom: none;
+}
+
+.checkbox-tbl {
+  margin: 50px 0;
+}
+
+.checkbox {
+  margin-right: 15px;
+  border-color: #646464;
+}
+
+.file-icon {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+.head__data {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40%;
+  height: 80%;
+  border: none;
+  border-radius: 6px;
+  background: url(../image/icon-magnifier.png) 10px 13px / 20px 20px no-repeat
+    #4b4b4b;
+}
+
+.search[placeholder] {
+  padding-left: 40px;
+
+  color: #fff;
+}
+
+.search::placeholder {
+  padding-left: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+}
