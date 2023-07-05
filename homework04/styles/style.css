@@ -225,6 +225,7 @@ input[placeholder] {
 
 .footer {
   height: 435px;
+  background-color: #fafafa;
 }
 
 .footer__address {
