@@ -1,0 +1,204 @@
+/* Normalize */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 700;
+}
+/*--------------------*/
+
+@keyframes first-sword {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes second-sword {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes first-sphere {
+  0% {
+    transform: translate(-50px, -50px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes last-sphere {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50px, -50px);
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.swords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Sky-Stars.jpg) 100% 100% / cover no-repeat;
+}
+
+.sword {
+  width: 300px;
+  height: 20px;
+  background-color: rgb(190, 186, 186);
+  margin: 100px 0;
+  border-radius: 14px;
+}
+
+.one {
+  box-shadow: 1px 1px 2px 2px #ebe7e7, -1px -1px 3px 3px #e6e0e0,
+    3px 3px 8px 8px #a1f3e5, -3px -3px 8px 8px #7beed5;
+}
+
+.sword-hilt {
+  width: 50px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: #000;
+}
+
+.swords__two {
+  margin: 100px 0;
+  position: relative;
+}
+
+.first {
+  box-shadow: 1px 1px 2px 2px #ebe7e7, -1px -1px 3px 3px #e6e0e0,
+    3px 3px 8px 8px #f38451, -3px -3px 8px 8px #f07a65;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  z-index: 2;
+  animation: first-sword 2s ease-in-out infinite alternate;
+}
+
+.second {
+  box-shadow: 1px 1px 2px 2px #ebe7e7, -1px -1px 3px 3px #e6e0e0,
+    3px 3px 8px 8px #c051f3, -3px -3px 8px 8px #ce64f8;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  animation: second-sword 2s ease-in-out infinite alternate;
+}
+
+.sword-hilt.reverse {
+  margin-left: 80%;
+}
+
+.pendulum {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.sphere {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #19a083;
+}
+
+.sphere:first-child {
+  animation: first-sphere 1s linear infinite alternate;
+}
+
+.sphere:last-child {
+  animation: last-sphere 1s linear infinite alternate;
+}
