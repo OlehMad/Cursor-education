@@ -1,0 +1,74 @@
+:root {
+  --primary-white: #fafafa;
+  --primary-black: #262626;
+  --primary-blue: #4094ef;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.063em;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--primary-black);
+  background-color: var(--primary-white);
+}
+
+.form-control::placeholder {
+  background: url(../images/search.svg) 31% 50% no-repeat;
+  color: #8f8f8f;
+  font-size: 0.875em;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .form-control::placeholder {
+    background: none;
+  }
+}
+
+.head__title {
+  font-size: 1.625rem;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary-blue);
+  border: none;
+  font-size: 0.875rem;
+}
+
+.content__title {
+  font-size: 1.063rem;
+}
+
+.content__link {
+  color: #133768;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.caption {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.form-check-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.08px;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+
+.form-check-input:checked + .form-check-label {
+  color: #262626;
+  border-top: 1px solid #262626;
+}
+
+.form-check-input:checked + .form-check-label .form-check-icon {
+  fill: #262626;
+}
+
+.form-check-input {
+  visibility: hidden;
+}
